@@ -27,10 +27,5 @@ public class HashGenerator {
 		return randVals;
 	}
 	
-	private int generateRandom(){
-		Random random = new Random();
-		byte[] byteArray = new byte[1];
-		random.nextBytes(byteArray);
-		return byteArray[0];   
-	}
+
 }

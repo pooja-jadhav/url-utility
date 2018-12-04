@@ -7,33 +7,20 @@ urlShortener is a url utility project that hosts a server with the following fun
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-install redis server 
+
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
-```
-Give examples
-```
+install redis server
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
 End with an example of getting some data out of the system or using it for a little demo
+
 curl -v -X POST -H "Accept: application/json" -H "Content-Type: application/json"  -d '{"url":"https://www.quora.com/What-is-the-most-efficient-algorithm-to-find-the-kth-smallest-element-in-an-array-having-n-unordered-elements"}' http://localhost:8080/urlShortner/url/
 
 place url obtained from above into browser. You should be redirected to the long url.
@@ -45,10 +32,6 @@ Explain how to run the automated tests for this system
 ### Break down into end to end tests
 
 Explain what these tests test and why
-
-```
-Give an example
-```
 
 ### And coding style tests
 
@@ -64,9 +47,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 mvn clean install
 
@@ -76,17 +57,13 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Pooja Jadhav** - 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 

@@ -25,22 +25,6 @@ curl -v -X POST -H "Accept: application/json" -H "Content-Type: application/json
 
 place url obtained from above into browser. You should be redirected to the long url.
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
@@ -59,7 +43,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Pooja Jadhav** - 
+* **Pooja Jadhav** 
 
 
 ## License
